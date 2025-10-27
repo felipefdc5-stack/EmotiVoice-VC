@@ -19,13 +19,13 @@ Este guia descreve o ambiente Python recomendado e o processo para configurar a 
 2. Crie a virtualenv (o diretorio `.venv` sera gerado automaticamente):
 
    ```powershell
-   python -m venv .venv
+   python -m venv venv
    ```
 
 3. Ative a virtualenv:
-   - PowerShell (Windows): `.\.venv\Scripts\Activate.ps1`
-   - Prompt de Comando (Windows): `.\.venv\Scripts\activate.bat`
-   - Bash (Linux/macOS): `source .venv/bin/activate`
+   - PowerShell (Windows): `venv\Scripts\Activate.ps1`
+   - Prompt de Comando (Windows): `venv\Scripts\activate.bat`
+   - Bash (Linux/macOS): `source venv/bin/activate`
 
 4. (Opcional, mas recomendado) Atualize o `pip` dentro do ambiente:
 
