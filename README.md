@@ -52,3 +52,9 @@ Este guia descreve o ambiente Python recomendado e o processo para configurar a 
 ## Conferindo a instalacao
 
 Com a virtualenv ativa, execute `pip list` para confirmar se todas as dependencias foram instaladas. Em seguida, prossiga com os scripts do projeto conforme necessario.
+
+# Inciar inteface Webui
+
+python webui_rvc.py --device cuda
+
+python webui_rvc2.py --device cuda
