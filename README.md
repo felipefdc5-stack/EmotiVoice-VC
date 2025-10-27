@@ -2,7 +2,7 @@
  .checkpoints- para o EmotiVoice VC possa funcionar com as dempendecias que deve ser usadas para inferencia.
  . Site para baixar o checkpoints: https://huggingface.co/FERNAN89/EmotiVoiceVC/tree/main
 
- .modules-treining- aqui e clocado os modelo de voz treinados no seed-vc, os arquivo gerados no treino ft_model.pth e config.yml, dentro de uma pasta com o nome do modelo que preferir.
+. modules-treining- aqui e clocado os modelo de voz treinados no seed-vc, os arquivo gerados no treino ft_model.pth e config.yml, dentro de uma pasta com o nome do modelo que preferir.
 
 # EmotiVoice VC
 
@@ -55,6 +55,8 @@ Com a virtualenv ativa, execute `pip list` para confirmar se todas as dependenci
 
 # Inciar inteface Webui
 
-python webui_rvc.py --device cuda
+interface sinples: python webui_rvc.py --device cuda
 
-python webui_rvc2.py --device cuda
+interface avançada: python webui_rvc2.py --device cuda
+
+.na interface Avançada terá que ter os seu modelos na pasta modules-treining!
