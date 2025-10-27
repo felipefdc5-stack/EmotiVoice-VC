@@ -1,5 +1,6 @@
 # Cria as seguintes pastas no diretorio do EmotiVoice VC
  .checkpoints- para o EmotiVoice VC possa funcionar com as dempendecias que deve ser usadas para inferencia.
+ . Site para baixar o checkpoints: https://huggingface.co/FERNAN89/EmotiVoiceVC/tree/main
 
  .modules-treining- aqui e clocado os modelo de voz treinados no seed-vc, os arquivo gerados no treino ft_model.pth e config.yml, dentro de uma pasta com o nome do modelo que preferir.
 
